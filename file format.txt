@@ -1,0 +1,29 @@
+0-127: pitch
+0-255: time
+51 duration possibilities * 5 volume possibilities
+volumes: (120, 90, 60, 30, 0)
+
+128: instrument
+0-127: type of instrument
+
+129-143: tempo change (occupies 16 spaces, 4*4, first 4 is beat, other 4 is time of beat. it doesn't have that if it's not 4/x)
+0-255: bar starting tempo change
+
+start:
+x/x (16*16)
+first tempo
+first instrument
+
+
+
+maneres d'optimitzar:
+instrument del principi
+
+1: corxera
+2: semi
+3: fusa
+4: treset
+5: corxera+semi
+6:
+7:
+8:
